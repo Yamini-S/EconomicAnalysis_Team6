@@ -1,0 +1,13 @@
+urllib3
+boto3
+luigi
+pandas
+lxml
+bs4
+sklearn
+statsmodels
+IPython
+datetime
+#itertools
+#operator
+xlrd

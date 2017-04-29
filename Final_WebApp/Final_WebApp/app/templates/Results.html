@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Results</title>
+</head>
+<body>
+
+<h3>Below are the forecasted results for {{ Indicator }} in {{ StateName }}</h3>
+<table>
+  <tr>
+    <th>Year</th>
+    <th>Actual Value</th>
+    <th>Forecasted Value</th>
+  </tr>
+
+    {% for message in output %}
+        <tr>
+            <td>{{ message[0] }}</td>
+            <td>{{ message[1] }}</td>
+            <td>{{ message[2] }}</td>
+        </tr>
+    {% endfor %}
+</table>
+
+<a href="/"> << Back to Home Page </a>
+</body>
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+</html>
