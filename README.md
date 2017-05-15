@@ -14,7 +14,7 @@ docker run -it -e "accesskey=<your access key>" -e "secretkey=<your secret key>"
 
 [Docker Hub link](https://hub.docker.com/r/yaminis/finalproject_team6/)
 
-[Web Application Link For Porject](http://ec2-35-167-175-188.us-west-2.compute.amazonaws.com/)
+[Web Application Link For Project](http://ec2-35-167-175-188.us-west-2.compute.amazonaws.com/)
 
 
 Folders and the files inside in the repository:
